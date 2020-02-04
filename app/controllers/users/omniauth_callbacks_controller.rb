@@ -9,7 +9,7 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
     callback_from :google
   end
 
-  private
+      private
 
   def callback_from(provider)
     provider = provider.to_s
